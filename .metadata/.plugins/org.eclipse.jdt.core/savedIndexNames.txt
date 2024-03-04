@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\sources\problemSolveing\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2789109154.index
+3267118893.index
+3086198347.index
