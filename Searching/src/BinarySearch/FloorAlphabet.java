@@ -5,23 +5,21 @@ public class FloorAlphabet {
 	public static void main(String[] args) {
 		char [] arr = {'a','b','l','m','n', 'p'};
 		char target = 'o';
-		int index = floorAlphabet(arr, target);
+		char index = floorAlphabet(arr, target);
 		System.out.println(index);
 	}
-	static int floorAlphabet(char[] arr,char target) {
+	static char floorAlphabet(char[] arr,char target) {
 		int start = 0;
 		int end = arr.length-1;
 		
 		while(start <= end) {
 			int mid = start + (end-start)/2;
-			if(target > arr.) {
-				start = arr[mid]+1;
-			}else if(target < arr[mid]) {
-				end = arr[mid]-1;
+			if(target > arr[mid]) {
+				start = mid+1;
 			}else {
-				return mid;
+				end = mid-1;
 			}
 		}
-		return -1;
+		return arr[start%arr.length];
 	}
 }
