@@ -1,4 +1,4 @@
-package IteratorInternalImplementation;
+package IterableInternalImplementation;
 
 import java.util.Iterator;
 
@@ -6,6 +6,7 @@ public class OurGenericArray<T> implements Iterable<T>{
 	private T[] items;
 	private int size;
 	
+	@SuppressWarnings("unchecked")
 	public OurGenericArray() {
 		size=0;
 		items = (T[]) new Object[3];

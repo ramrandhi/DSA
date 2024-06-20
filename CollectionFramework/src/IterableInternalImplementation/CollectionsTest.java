@@ -1,6 +1,4 @@
-package IteratorInternalImplementation;
-
-import java.util.Iterator;
+package IterableInternalImplementation;
 
 public class CollectionsTest {
 	
