@@ -16,4 +16,5 @@
     <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="classes.object.basics.packages.b.B"/>
 </qualifiedTypeNameHistroy>
