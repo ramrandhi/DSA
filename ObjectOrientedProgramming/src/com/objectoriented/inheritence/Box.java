@@ -11,5 +11,9 @@ public class Box {
 		this.weight = -1;
 	}
 	
-	
+	Box(double length, double weight, double height){
+		this.height = height;
+		this.length = length;
+		this.weight = weight;
+	}
 }
